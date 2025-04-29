@@ -1,0 +1,80 @@
+@page "/form-validation"
+<div class="container">
+    <div class="row">
+        <div class="col-8">
+            <EditForm Model="@model" OnValidSubmit="HandleSubmit">
+                <DataAnnotationsValidator />
+                <div class="w-50 mx-auto">
+                    <h3>Register</h3>
+                    <div class="form-group">
+                        <label for="">Username</label>
+                        <input class="form-control" @bind="model.UserName">
+                        <ValidationMessage For="@(() => model.UserName)" class="text-danger" />
+                    </div>
+                    <div class="form-group">
+                        <label for="">Passowrd</label>
+                        <input class="form-control" @bind="model.Password">
+                        <ValidationMessage For="@(() => model.Password)" />
+                    </div>
+                    <div class="form-group">
+                        <label for="">Email</label>
+                        <input class="form-control" @bind="model.Email">
+                        <ValidationMessage For="@(() => model.Email)" />
+                    </div>
+                    <div class="form-group">
+                        <label for="">Fullname</label>
+                        <input class="form-control" @bind="model.FullName">
+                    </div>
+                    <div class="form-group">
+                        <label>Gender</label>
+                        <input class="form-check-input" type="radio" id="Male" value="Male" checked name="Gender" @onclick="@(e=>ChangeGender("Male"))" >
+                        <label for="Male">Male</label>
+                        <input class="form-check-input" type=radio id="Female" value="Female" checked name="Gender" @onclick="@(e=>ChangeGender("Female"))">
+                        <label for="Female">Female</label>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Country</label>
+                        <select @bind="model.Country" class="form-control">
+                            @foreach (Country item in ListCountry.Values)
+                            {
+                                <option value="@item.Id">@item.Name</option>
+                            }
+                        </select>
+                    </div>
+                    <div class="form-group ">
+                        <button type="submit" class="btn btn-dark mt-3">Register</button>
+                    </div>
+                </div>
+            </EditForm>
+        </div>
+        <div class="col-4">
+            <div class="alert alert-success">
+                <p>Username: @model.UserName</p>
+                <p>Passowrd: @model.Password</p>
+                <p>Email: @model.Email</p>
+                <p>FullName: @model.FullName</p>
+                <p>Gender: @model.Gender</p>
+                <p>Country: @model.Country</p>
+            </div>
+        </div>
+    </div>
+</div>
+<button @onclick="AddCountry">AddCountry
+</button>
+
+@code {
+    public RegisterViewModel model = new RegisterViewModel();
+    bool Gender =true;
+    void ChangeGender (string value){
+        model.Gender=value;
+    }
+    void HandleSubmit()
+    {
+        Console.WriteLine("Save data");
+    }
+    public void AddCountry()
+    {
+        Country country = new Country() { Id = "ABC", Name = "XYZ" };
+        ListCountry.AddCountry(country);
+    }
+}

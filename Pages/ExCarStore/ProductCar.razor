@@ -1,0 +1,27 @@
+@page "/Ex-car"
+
+
+<div class="container">
+    <h3>Car List</h3>
+    <div class="row">
+        @foreach (var item in lstCar)
+        {
+            <div class="col-4">
+            </div>
+        }
+
+    </div>
+</div>
+
+
+
+
+@code {
+    List<ProductCarViewModel> lstCar = new List<ProductCarViewModel>()
+{
+new ProductCarViewModel{Id ="1",Name="Xe đỏ",Img="...",price="1000"},
+new ProductCarViewModel{Id ="2",Name="Xe xe xám",Img="...",price="2000"},
+new ProductCarViewModel{Id ="3",Name="Xe đen",Img="...",price="3000"},
+};
+
+}

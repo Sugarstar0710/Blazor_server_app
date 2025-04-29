@@ -1,0 +1,35 @@
+@page "/component-param"
+
+<div class="container">
+    <h3>component width parameter</h3>
+    <div class="row">
+        @foreach (ProductCardViewModel item in lstProduct)
+        {
+            <div class="col-4 mt-2">
+                <CardItem prod="@item" />
+                <button @onclick="@(e => ViewDetail(item))" class="btn btn-dark"data-bs-toggle="modal" data-bs-target="#modalId">Detail</button>
+            </div>
+        }
+
+    </div>
+    <!-- Modal trigger button -->
+    <PopupModel contentBody="ABC">
+        <div class="text text-danger">@prodNameDetail </div>
+    </PopupModel>
+    <button type="button" class="btn btn-primary btn-lg" >
+        Launch
+    </button>
+</div>
+@code {
+    public string prodNameDetail {get;set;}
+    List<ProductCardViewModel> lstProduct = new List<ProductCardViewModel>{
+new ProductCardViewModel () {Id ="1",Name="Iphone",Price="10000",Imgage="https://picsum.photos/id/1/200/200"},
+new ProductCardViewModel () {Id ="2",Name="SamSung",Price="20000",Imgage="https://picsum.photos/id/2/200/200"},
+new ProductCardViewModel () {Id ="3",Name="Iphone pro max",Price="30000",Imgage="https://picsum.photos/id/3/200/200"},
+};
+    void ViewDetail (ProductCardViewModel prodDetail){
+        prodNameDetail = prodDetail.Name;
+    }
+
+
+}

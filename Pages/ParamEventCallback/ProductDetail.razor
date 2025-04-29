@@ -1,0 +1,64 @@
+@page "/product-detail"
+@using System.Text.Json
+<div class="container ">
+    <h3>Product List</h3>
+    <div class="row">
+        @foreach (ProductCardViewModel product in lstProduct)
+        {
+            <div class="col-4">
+                <ProductCard prod="@product" eventViewDetail="ViewDetail"/>
+                @* <div class="card">
+                    <img src="@prod.Imgage" alt="..." height="200" />
+                    <div class="card-body">
+                        <h3 class="card-title">@product.Name</h3>
+                        <div class="card-text">@product.Price</div>
+                        <button class="btn btn-dark" @onclick="@((e) => (@product))">Detail</button>
+                    </div>
+                </div> *@
+            </div>
+        }
+
+    </div>
+    <hr />
+    <div class="mt-2 row">
+        <div class="col-3">
+            <h3>Iphone</h3>
+            <img src="@prodDetailState.Imgage" alt="...">
+        </div>
+        <div class="col-9">
+            <h3>Product detail</h3>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <td>Id</td>
+                        <td>@prodDetailState.Id</td>
+                    </tr>
+                    <tr>
+                        <td>Name</td>
+                        <td>@prodDetailState.Name</td>
+                    </tr>
+                    <tr>
+                        <td>Price</td>
+                        <td>@prodDetailState.Price</td>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+
+</div>
+
+@code {
+
+    ProductCardViewModel prodDetailState = new ProductCardViewModel() { Id = "1", Name = "Iphone", Price = "100" };
+    List<ProductCardViewModel> lstProduct = new List<ProductCardViewModel>{
+new ProductCardViewModel () {Id ="1",Name="Iphone",Price="10000",Imgage="https://picsum.photos/id/1/200/200"},
+new ProductCardViewModel () {Id ="2",Name="SamSung",Price="20000",Imgage="https://picsum.photos/id/2/200/200"},
+new ProductCardViewModel () {Id ="3",Name="Iphone pro max",Price="30000",Imgage="https://picsum.photos/id/3/200/200"},
+};
+    void ViewDetail(ProductCardViewModel prodClick)
+    {
+        Console.Write(JsonSerializer.Serialize(prodClick));
+        prodDetailState = prodClick;
+    }
+}

@@ -1,0 +1,32 @@
+@page "/data-biding"
+@using blazor_server_app.Ultil
+
+<h1>Databiding</h1>
+<div class="container">
+<h1>
+    Hello @name
+    <br/>
+    <span class="badge bg-danger">Score:@sum(5,10)</span>
+    <span class="badge bg-dark">count:@count</span>
+    <button class="btn btn-primary"@onclick="changecount">+</button>
+        <button class="btn btn-primary"@onclick="descount">-</button>
+</h1>
+</div>
+
+
+
+
+@code{
+    //Model (Class điều hướng giao diện ở phía trên)
+    private string name {get;set;} ="Nga";
+    private int sum(int a, int b) {
+        return FuncUtil.sum(a,b);
+    }
+    private int count {get;set;}=1;
+    private void changecount (){
+        count +=1;
+    }
+    private void descount (){
+        count -=1;
+    }
+}

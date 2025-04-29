@@ -1,0 +1,28 @@
+@page "/twoway-biding"
+
+@{
+    int total = price * quantity;
+}
+<div class="container">
+    <h3>Twoway biding</h3>
+    <h3>Product info</h3>
+    <input id="price" @bind="price" @bind:event="oninput"placeholder="input price" class="w-25 d-inline"/>
+    <input id="quantity" @bind="quantity"@bind:event="oninput" placeholder="input quantity" class="w-25 d-inline ms-2"/>
+    <h3>total: @total</h3>
+</div>
+
+@code {
+    private int price = 0;
+    private int quantity = 0;
+    void handleChangeInput(ChangeEventArgs e, string id)
+    {
+        if (id == "price")
+        {
+            price = int.Parse(e.Value.ToString());
+        }
+        else
+        {
+            quantity = int.Parse(e.Value.ToString());
+        }
+    }
+}

@@ -1,0 +1,50 @@
+@page "/register"
+
+
+ <div class="container">
+<EditForm Model="@model" OnValidSubmit="HandleSubmit" class="w-75 mx-auto">
+   
+        <h3>register</h3>
+        <div class="form-group">
+            <label for="UserName">UserName</label>
+            <input id="UserName" class="form-control" @bind="model.UserName" />
+        </div>
+        <div class="form-group">
+            <label for="Password">Password</label>
+            <input id="PassWord" class="form-control" @bind="model.Password" />
+        </div>
+        <div class="form-group">
+            <label for="FullName">FullName</label>
+            <input id="FullName" class="form-control" @bind="model.FullName" />
+        </div>
+          <div class="form-group">
+            <label for="Gender">Gender</label>
+            <select id="Gender" class="form-control" @bind="model.Gender" >
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+        </div>
+          <div class="form-group">
+            <label for="Country">Country</label>
+            <select id="Country" class="form-control" @bind="model.Country" >
+                <option value="VN">Việt Nam</option>
+                <option value="EN">Eng</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <button class="btn btn-dark my-2" type="submit">Register</button>
+        </div>
+   
+
+</EditForm>
+ </div>
+
+@code {
+    @using System.Text.Json
+    UserViewModel model = new UserViewModel();
+    void HandleSubmit (){
+        //Chuyển từ obj về text
+        string json=JsonSerializer.Serialize(model);
+        Console.Write(json);
+    }
+}

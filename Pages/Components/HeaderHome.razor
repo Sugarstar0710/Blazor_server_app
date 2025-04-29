@@ -1,0 +1,62 @@
+<nav
+    class="navbar navbar-expand-sm navbar-dark bg-dark"
+>
+    <a class="navbar-brand" href="#">Cybersorft Blazor</a>
+    <button
+        class="navbar-toggler d-lg-none"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapsibleNavId"
+        aria-controls="collapsibleNavId"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+    ></button>
+    <div class="collapse navbar-collapse align-items-center mt-3"  id="collapsibleNavId">
+        <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+                <NavLink ActiveClass="active_link" class="nav-link " href="/" Match="NavLinkMatch.All" aria-current="page"
+                    >Home</NavLink>
+            </li>
+            <li class="nav-item">
+                <NavLink ActiveClass="active_link" class="nav-link" href="/login" Match="NavLinkMatch.Prefix">Login</NavLink>
+            </li>
+            <li class="nav-item">
+                <NavLink ActiveClass="active_link" class="nav-link" href="/form-validation" Match="NavLinkMatch.Prefix">FormValidation</NavLink>
+            </li>
+              <li class="nav-item">
+                <NavLink ActiveClass="active_link" class="nav-link" href="/component-param" Match="NavLinkMatch.Prefix">Component With Param</NavLink>
+            </li>
+              <li class="nav-item">
+                <NavLink ActiveClass="active_link" class="nav-link" href="/product-detail" Match="NavLinkMatch.Prefix">Param event CallBack</NavLink>
+            </li>
+            
+            <li class="nav-item dropdown">
+                <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="dropdownId"
+                    data-bs-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    >Databiding</a
+                >
+                <div class="dropdown-menu" aria-labelledby="dropdownId">
+                    <NavLink class="dropdown-item" href="/data-biding">Oneway-biding</NavLink>
+                      <NavLink class="dropdown-item" href="/handle-event">HandleEvent</NavLink>
+                    <NavLink class="dropdown-item" href="/twoway-biding">TwoWay-biding</NavLink>
+                </div>
+            </li>
+        </ul>
+        <form class="d-flex my-2 my-lg-0">
+            <input
+                class="form-control me-sm-2"
+                type="text"
+                placeholder="Search"
+            />
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                Search
+            </button>
+            
+        </form>
+    </div>
+</nav>
