@@ -53,6 +53,22 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Cybersoft.net\\Buoi24_remake\\blazor_server_app\\wwwroot\\images\\black-car.jpg",
+      "PackagePath": "staticwebassets\\images\\black-car.jpg"
+    },
+    {
+      "Id": "D:\\Cybersoft.net\\Buoi24_remake\\blazor_server_app\\wwwroot\\images\\red-car.jpg",
+      "PackagePath": "staticwebassets\\images\\red-car.jpg"
+    },
+    {
+      "Id": "D:\\Cybersoft.net\\Buoi24_remake\\blazor_server_app\\wwwroot\\images\\silver-car.jpg",
+      "PackagePath": "staticwebassets\\images\\silver-car.jpg"
+    },
+    {
+      "Id": "D:\\Cybersoft.net\\Buoi24_remake\\blazor_server_app\\wwwroot\\images\\steel-car.jpg",
+      "PackagePath": "staticwebassets\\images\\steel-car.jpg"
+    },
+    {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.blazor_server_app.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },

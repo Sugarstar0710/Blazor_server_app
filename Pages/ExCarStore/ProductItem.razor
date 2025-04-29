@@ -1,0 +1,13 @@
+<div class="card">
+    <img src="@prodProp.Img" alt="" />
+    <div class="card-body">
+        <h3 class="card-title">@prodProp.Name</h3>
+        <p class="card-text">@prodProp.price</p>
+        <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modalId">Detail</button>
+
+    </div>
+</div>
+@code{
+    [Parameter]
+    public ProductCarViewModel prodProp {get;set;} = new ProductCarViewModel();
+}

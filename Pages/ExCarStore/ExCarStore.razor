@@ -1,0 +1,22 @@
+@page "/ex-carstore"
+
+
+<div class="container">
+    <Modal/>
+    <ProductList LstProduct="@lstProduct"/>
+    
+</div>
+
+
+
+
+@code {
+    List<ProductCarViewModel> lstProduct = new List<ProductCarViewModel>()
+{
+new ProductCarViewModel{Id ="1",Name="BlackCar",Img="/images/black-car.jpg",price="1000"},
+new ProductCarViewModel{Id ="2",Name="Redcar",Img="/images/red-car.jpg",price="2000"},
+new ProductCarViewModel{Id ="3",Name="silvercar",Img="./images/silver-car",price="3000"},
+new ProductCarViewModel{Id ="4",Name="SteelCar",Img="./images/steel-car",price="4000"},
+};
+
+}

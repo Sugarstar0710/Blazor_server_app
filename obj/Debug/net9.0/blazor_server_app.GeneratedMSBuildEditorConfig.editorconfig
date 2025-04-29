@@ -9,93 +9,105 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = blazor_server_app
 build_property.RootNamespace = blazor_server_app
-build_property.ProjectDir = d:\Cybersoft.net\Buoi24_remake\blazor_server_app\
+build_property.ProjectDir = D:\Cybersoft.net\Buoi24_remake\blazor_server_app\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = d:\Cybersoft.net\Buoi24_remake\blazor_server_app
+build_property.MSBuildProjectDirectory = D:\Cybersoft.net\Buoi24_remake\blazor_server_app
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[d:/Cybersoft.net/Buoi24_remake/blazor_server_app/App.razor]
+[D:/Cybersoft.net/Buoi24_remake/blazor_server_app/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Cybersoft.net/Buoi24_remake/blazor_server_app/Pages/ComponentParam.razor]
+[D:/Cybersoft.net/Buoi24_remake/blazor_server_app/Pages/ComponentParam.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50UGFyYW0ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Cybersoft.net/Buoi24_remake/blazor_server_app/Pages/Components/CardItem.razor]
+[D:/Cybersoft.net/Buoi24_remake/blazor_server_app/Pages/Components/CardItem.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xDYXJkSXRlbS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Cybersoft.net/Buoi24_remake/blazor_server_app/Pages/Components/DataBiding.razor]
+[D:/Cybersoft.net/Buoi24_remake/blazor_server_app/Pages/Components/DataBiding.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xEYXRhQmlkaW5nLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Cybersoft.net/Buoi24_remake/blazor_server_app/Pages/Components/HandleEvent.razor]
+[D:/Cybersoft.net/Buoi24_remake/blazor_server_app/Pages/Components/HandleEvent.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xIYW5kbGVFdmVudC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Cybersoft.net/Buoi24_remake/blazor_server_app/Pages/Components/HeaderHome.razor]
+[D:/Cybersoft.net/Buoi24_remake/blazor_server_app/Pages/Components/HeaderHome.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xIZWFkZXJIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Cybersoft.net/Buoi24_remake/blazor_server_app/Pages/Components/PopupModel.razor]
+[D:/Cybersoft.net/Buoi24_remake/blazor_server_app/Pages/Components/PopupModel.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xQb3B1cE1vZGVsLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Cybersoft.net/Buoi24_remake/blazor_server_app/Pages/Components/TwoWayBiding.razor]
+[D:/Cybersoft.net/Buoi24_remake/blazor_server_app/Pages/Components/TwoWayBiding.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xUd29XYXlCaWRpbmcucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Cybersoft.net/Buoi24_remake/blazor_server_app/Pages/ExCarStore/ProductCar.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXhDYXJTdG9yZVxQcm9kdWN0Q2FyLnJhem9y
+[D:/Cybersoft.net/Buoi24_remake/blazor_server_app/Pages/ExCarStore/ExCarStore.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXhDYXJTdG9yZVxFeENhclN0b3JlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Cybersoft.net/Buoi24_remake/blazor_server_app/Pages/FormValidation.razor]
+[D:/Cybersoft.net/Buoi24_remake/blazor_server_app/Pages/ExCarStore/Modal.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXhDYXJTdG9yZVxNb2RhbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cybersoft.net/Buoi24_remake/blazor_server_app/Pages/ExCarStore/ProductItem.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXhDYXJTdG9yZVxQcm9kdWN0SXRlbS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cybersoft.net/Buoi24_remake/blazor_server_app/Pages/ExCarStore/ProductList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXhDYXJTdG9yZVxQcm9kdWN0TGlzdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cybersoft.net/Buoi24_remake/blazor_server_app/Pages/FormValidation.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9ybVZhbGlkYXRpb24ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Cybersoft.net/Buoi24_remake/blazor_server_app/Pages/Index.razor]
+[D:/Cybersoft.net/Buoi24_remake/blazor_server_app/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Cybersoft.net/Buoi24_remake/blazor_server_app/Pages/Login.razor]
+[D:/Cybersoft.net/Buoi24_remake/blazor_server_app/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Cybersoft.net/Buoi24_remake/blazor_server_app/Pages/ParamEventCallback/ProductCard.razor]
+[D:/Cybersoft.net/Buoi24_remake/blazor_server_app/Pages/ParamEventCallback/ProductCard.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFyYW1FdmVudENhbGxiYWNrXFByb2R1Y3RDYXJkLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Cybersoft.net/Buoi24_remake/blazor_server_app/Pages/ParamEventCallback/ProductDetail.razor]
+[D:/Cybersoft.net/Buoi24_remake/blazor_server_app/Pages/ParamEventCallback/ProductDetail.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFyYW1FdmVudENhbGxiYWNrXFByb2R1Y3REZXRhaWwucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Cybersoft.net/Buoi24_remake/blazor_server_app/Pages/Register.razor]
+[D:/Cybersoft.net/Buoi24_remake/blazor_server_app/Pages/Register.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Cybersoft.net/Buoi24_remake/blazor_server_app/Shared/AdminMasterPage.razor]
+[D:/Cybersoft.net/Buoi24_remake/blazor_server_app/Shared/AdminMasterPage.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEFkbWluTWFzdGVyUGFnZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Cybersoft.net/Buoi24_remake/blazor_server_app/Shared/HomeMasterPage.razor]
+[D:/Cybersoft.net/Buoi24_remake/blazor_server_app/Shared/HomeMasterPage.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEhvbWVNYXN0ZXJQYWdlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Cybersoft.net/Buoi24_remake/blazor_server_app/_Imports.razor]
+[D:/Cybersoft.net/Buoi24_remake/blazor_server_app/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Cybersoft.net/Buoi24_remake/blazor_server_app/Pages/_Host.cshtml]
+[D:/Cybersoft.net/Buoi24_remake/blazor_server_app/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Cybersoft.net/Buoi24_remake/blazor_server_app/Pages/_Layout.cshtml]
+[D:/Cybersoft.net/Buoi24_remake/blazor_server_app/Pages/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

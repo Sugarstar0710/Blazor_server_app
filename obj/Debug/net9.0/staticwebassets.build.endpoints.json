@@ -2795,6 +2795,334 @@
           "Value": "sha256-wfFuuYm+Lh6RbCeeiUqxw334b/hIOkp5j9eokGUM1Y0="
         }
       ]
+    },
+    {
+      "Route": "images/black-car.jpg",
+      "AssetFile": "images/black-car.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62882"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m7KElD/1HOKui62nAW+zOZ9CFxUBM14CJHvjulUHQT4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 Aug 2019 09:49:54 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-m7KElD/1HOKui62nAW+zOZ9CFxUBM14CJHvjulUHQT4="
+        }
+      ]
+    },
+    {
+      "Route": "images/black-car.tqqgy47oal.jpg",
+      "AssetFile": "images/black-car.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62882"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m7KElD/1HOKui62nAW+zOZ9CFxUBM14CJHvjulUHQT4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 Aug 2019 09:49:54 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tqqgy47oal"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-m7KElD/1HOKui62nAW+zOZ9CFxUBM14CJHvjulUHQT4="
+        },
+        {
+          "Name": "label",
+          "Value": "images/black-car.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "images/red-car.gvozwb7626.jpg",
+      "AssetFile": "images/red-car.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "67825"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rIQ7bpwUAK4zzTs/W72TBscxuJ0/keIIQg5M4wstibk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 Aug 2019 09:51:54 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gvozwb7626"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rIQ7bpwUAK4zzTs/W72TBscxuJ0/keIIQg5M4wstibk="
+        },
+        {
+          "Name": "label",
+          "Value": "images/red-car.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "images/red-car.jpg",
+      "AssetFile": "images/red-car.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "67825"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rIQ7bpwUAK4zzTs/W72TBscxuJ0/keIIQg5M4wstibk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 Aug 2019 09:51:54 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rIQ7bpwUAK4zzTs/W72TBscxuJ0/keIIQg5M4wstibk="
+        }
+      ]
+    },
+    {
+      "Route": "images/silver-car.jpg",
+      "AssetFile": "images/silver-car.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "65858"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9RNJR76B6nixA4h135wH1h4lekf6/66c4+/+5ccZZCs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 Aug 2019 09:54:24 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9RNJR76B6nixA4h135wH1h4lekf6/66c4+/+5ccZZCs="
+        }
+      ]
+    },
+    {
+      "Route": "images/silver-car.r0v89x5adp.jpg",
+      "AssetFile": "images/silver-car.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "65858"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9RNJR76B6nixA4h135wH1h4lekf6/66c4+/+5ccZZCs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 Aug 2019 09:54:24 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r0v89x5adp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9RNJR76B6nixA4h135wH1h4lekf6/66c4+/+5ccZZCs="
+        },
+        {
+          "Name": "label",
+          "Value": "images/silver-car.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "images/steel-car.jpg",
+      "AssetFile": "images/steel-car.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "64918"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TPhsJNT1RJInw4r7TMGifkcvgX5cHgIE6twfhlz34CI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 Aug 2019 09:56:22 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TPhsJNT1RJInw4r7TMGifkcvgX5cHgIE6twfhlz34CI="
+        }
+      ]
+    },
+    {
+      "Route": "images/steel-car.kapxuf0aey.jpg",
+      "AssetFile": "images/steel-car.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "64918"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TPhsJNT1RJInw4r7TMGifkcvgX5cHgIE6twfhlz34CI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 Aug 2019 09:56:22 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kapxuf0aey"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TPhsJNT1RJInw4r7TMGifkcvgX5cHgIE6twfhlz34CI="
+        },
+        {
+          "Name": "label",
+          "Value": "images/steel-car.jpg"
+        }
+      ]
     }
   ]
 }

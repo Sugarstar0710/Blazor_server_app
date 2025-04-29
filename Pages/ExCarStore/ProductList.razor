@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="row">
+        @foreach (ProductCarViewModel prod in LstProduct)
+        {
+            <div class="col-3">
+                <ProductItem prodProp="prod"></ProductItem>
+            </div>
+        }
+
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public List<ProductCarViewModel> LstProduct { get; set; } = new List<ProductCarViewModel>();
+
+}
