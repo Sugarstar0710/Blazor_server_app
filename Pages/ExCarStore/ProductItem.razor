@@ -1,13 +1,35 @@
+
 <div class="card">
     <img src="@prodProp.Img" alt="" />
     <div class="card-body">
         <h3 class="card-title">@prodProp.Name</h3>
         <p class="card-text">@prodProp.price</p>
-        <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modalId">Detail</button>
+        <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modalId"@onclick="ViewDetail" >Detail</button>
+        <button class="btn btn-dark " @onclick="addToCart">
+            <i class="fa fa-cart-plus"></i> AddToCart
+        </button>
+
 
     </div>
 </div>
 @code{
     [Parameter]
     public ProductCarViewModel prodProp {get;set;} = new ProductCarViewModel();
+    [Parameter]
+    public EventCallback<ProductCarViewModel> eventClickDetail{get;set;}
+    
+    void ViewDetail ()
+    {
+        eventClickDetail.InvokeAsync(prodProp);
+    }
+    [Parameter]
+    public EventCallback<ProductCarViewModel> eventAddToCart{get;set;}
+
+    void addToCart()
+    {
+
+        //Gọi hàm từ component EXcarStore
+        eventAddToCart.InvokeAsync(prodProp);
+
+    }
 }

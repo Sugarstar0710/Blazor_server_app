@@ -1,9 +1,15 @@
 @page "/ex-carstore"
-
-
+@using System.Text.Json
+@inject IMapper _mapper;
 <div class="container">
-    <Modal/>
-    <ProductList LstProduct="@lstProduct"/>
+    <div class="flex-end mt-2">
+         <CartModel lstCartItem="lstCartItem"/>
+    </div>
+    
+    <Modal prodDetail="@proDetailModal"/>
+    <ProductList LstProduct="@lstProduct" eventClickDetail="ChangeCarModel" eventAddToCart ="AddToCart"/>
+    <button>Show Modal</button>
+   
     
 </div>
 
@@ -11,12 +17,40 @@
 
 
 @code {
-    List<ProductCarViewModel> lstProduct = new List<ProductCarViewModel>()
-{
-new ProductCarViewModel{Id ="1",Name="BlackCar",Img="/images/black-car.jpg",price="1000"},
-new ProductCarViewModel{Id ="2",Name="Redcar",Img="/images/red-car.jpg",price="2000"},
-new ProductCarViewModel{Id ="3",Name="silvercar",Img="./images/silver-car",price="3000"},
-new ProductCarViewModel{Id ="4",Name="SteelCar",Img="./images/steel-car",price="4000"},
-};
+    
+    ProductCarViewModel proDetailModal = new ProductCarViewModel{Id ="1",Name="BlackCar",Img="/images/black-car.jpg",price=1000};
+    List<CartItemVM> lstCartItem = new List<CartItemVM>(){
+        new CartItemVM{Id ="1",Name="BlackCar",Img="/images/black-car.jpg",price=1000,Quantity=100}
+        };  
+    void AddToCart(ProductCarViewModel prodClick)
+    {
+        //Giá trị được lấy ra từ component ProductItem
+        Console.WriteLine(JsonSerializer.Serialize(prodClick));
+        @* CartItemVM newItem = new CartItemVM();
+        newItem.Id = prodClick.Id;
+        newItem.Name = prodClick.Name;
+        newItem.price = prodClick.price;
+        newItem.Quantity = 1;
+        newItem.Img = prodClick.Img;
+        lstCartItem.Add(newItem);  *@
+        CartItemVM newItem= _mapper.Map<CartItemVM>(prodClick);
+        
+    }
 
-}
+
+
+
+    void ChangeCarModel (ProductCarViewModel prodclick)
+    {
+        proDetailModal =prodclick;
+    }
+    List<ProductCarViewModel> lstProduct = new List<ProductCarViewModel>()
+        
+{
+new ProductCarViewModel{Id ="1",Name="BlackCar",Img="/images/black-car.jpg",price=1000},
+new ProductCarViewModel{Id ="2",Name="Redcar",Img="/images/red-car.jpg",price=2000},
+new ProductCarViewModel{Id ="3",Name="silvercar",Img="./images/silver-car",price=3000},
+new ProductCarViewModel{Id ="4",Name="SteelCar",Img="./images/steel-car",price=4000},
+};
+}    
+    using AutoMapper;

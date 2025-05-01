@@ -52,6 +52,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xUd29XYXlCaWRpbmcucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Cybersoft.net/Buoi24_remake/blazor_server_app/Pages/ExCarStore/CartModel.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXhDYXJTdG9yZVxDYXJ0TW9kZWwucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Cybersoft.net/Buoi24_remake/blazor_server_app/Pages/ExCarStore/ExCarStore.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXhDYXJTdG9yZVxFeENhclN0b3JlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 

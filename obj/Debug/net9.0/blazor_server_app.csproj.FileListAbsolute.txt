@@ -38,3 +38,7 @@ D:\Cybersoft.net\Buoi24_remake\blazor_server_app\obj\Debug\net9.0\blazor_server_
 D:\Cybersoft.net\Buoi24_remake\blazor_server_app\obj\Debug\net9.0\ref\blazor_server_app.dll
 D:\Cybersoft.net\Buoi24_remake\blazor_server_app\obj\Debug\net9.0\compressed\2dbeoowi7f-0ycc9sa1i6.gz
 D:\Cybersoft.net\Buoi24_remake\blazor_server_app\obj\Debug\net9.0\blazor_server_app.sourcelink.json
+D:\Cybersoft.net\Buoi24_remake\blazor_server_app\bin\Debug\net9.0\AutoMapper.dll
+D:\Cybersoft.net\Buoi24_remake\blazor_server_app\bin\Debug\net9.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Cybersoft.net\Buoi24_remake\blazor_server_app\obj\Debug\net9.0\blazor_server_app.csproj.AssemblyReference.cache
+D:\Cybersoft.net\Buoi24_remake\blazor_server_app\obj\Debug\net9.0\blazor_s.947C1B6B.Up2Date

@@ -3,15 +3,18 @@
         @foreach (ProductCarViewModel prod in LstProduct)
         {
             <div class="col-3">
-                <ProductItem prodProp="prod"></ProductItem>
+                <ProductItem eventAddToCart="eventAddToCart" prodProp="prod"eventClickDetail="eventClickDetail"></ProductItem>
             </div>
         }
-
     </div>
 </div>
 
 @code {
     [Parameter]
     public List<ProductCarViewModel> LstProduct { get; set; } = new List<ProductCarViewModel>();
+    [Parameter]
+    public EventCallback<ProductCarViewModel> eventClickDetail {get;set;}
+    [Parameter]
+    public EventCallback<ProductCarViewModel> eventAddToCart{get;set;}
 
 }
