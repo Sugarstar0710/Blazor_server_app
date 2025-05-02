@@ -32,6 +32,9 @@
                <li class="nav-item">
                 <NavLink ActiveClass="active_link" class="nav-link" href="/ex-carstore" Match="NavLinkMatch.Prefix">ExcarStore</NavLink>
             </li>
+                   <li class="nav-item">
+                <NavLink ActiveClass="active_link" class="nav-link" href="/ref-demo" Match="NavLinkMatch.Prefix">Ref-Demo</NavLink>
+            </li>
             
             <li class="nav-item dropdown">
                 <a
@@ -47,6 +50,20 @@
                     <NavLink class="dropdown-item" href="/data-biding">Oneway-biding</NavLink>
                       <NavLink class="dropdown-item" href="/handle-event">HandleEvent</NavLink>
                     <NavLink class="dropdown-item" href="/twoway-biding">TwoWay-biding</NavLink>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="dropdownId"
+                    data-bs-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    >LifeCycle</a
+                >
+                <div class="dropdown-menu" aria-labelledby="dropdownId">
+                    <NavLink class="dropdown-item" href="/demo-oninit">Oninit</NavLink>
                 </div>
             </li>
         </ul>
