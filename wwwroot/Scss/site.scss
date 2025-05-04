@@ -1,0 +1,9 @@
+$main-color: #ff7f50;
+$color:blue;
+.p-blue{
+    color:$color;
+}
+body {
+  background-color: $main-color;
+  color: white;
+}

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+Hv3MYAPZpI6Fte9yQylqeEYuLuAKOe7n7d7SMxlKqE=",
+  "Hash": "fO8HOcHH1drsM3Ri1+Tm0AMK8GLSPRsMI4Ndcj0M4nk=",
   "Source": "blazor_server_app",
   "BasePath": "_content/blazor_server_app",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "D:\\Cybersoft.net\\Buoi24_remake\\blazor_server_app\\obj\\Debug\\net9.0\\compressed\\2dbeoowi7f-0ycc9sa1i6.gz",
+      "Identity": "D:\\Cybersoft.net\\Buoi24_remake\\blazor_server_app\\obj\\Debug\\net9.0\\compressed\\2dbeoowi7f-g9gj2g4fvj.gz",
       "SourceId": "blazor_server_app",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cybersoft.net\\Buoi24_remake\\blazor_server_app\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/blazor_server_app",
-      "RelativePath": "css/site#[.{fingerprint=0ycc9sa1i6}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=g9gj2g4fvj}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -31,8 +31,8 @@
       "RelatedAsset": "D:\\Cybersoft.net\\Buoi24_remake\\blazor_server_app\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "dhcpht8y9d",
-      "Integrity": "j69LrXZ6DVGfsIh49AJSLVcjtbongGto2jRg+b20xMQ=",
+      "Fingerprint": "byoiezsa2m",
+      "Integrity": "LTeJUlv2OtL7clJIZaMg7G9Y5813/dhWor6EQaoUiic=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Cybersoft.net\\Buoi24_remake\\blazor_server_app\\wwwroot\\css\\site.css"
@@ -99,6 +99,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Cybersoft.net\\Buoi24_remake\\blazor_server_app\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Identity": "D:\\Cybersoft.net\\Buoi24_remake\\blazor_server_app\\obj\\Debug\\net9.0\\compressed\\ggzq3v2xk5-g6xnr5odz0.gz",
+      "SourceId": "blazor_server_app",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Cybersoft.net\\Buoi24_remake\\blazor_server_app\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/blazor_server_app",
+      "RelativePath": "css/site.css#[.{fingerprint=g6xnr5odz0}]?.map.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\Cybersoft.net\\Buoi24_remake\\blazor_server_app\\wwwroot\\css\\site.css.map",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "hvpvq61o0i",
+      "Integrity": "QylCfmNQ1ZPhXaxTyLjARAnkK+0aUPHYEt++Xig1YoM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Cybersoft.net\\Buoi24_remake\\blazor_server_app\\wwwroot\\css\\site.css.map"
     },
     {
       "Identity": "D:\\Cybersoft.net\\Buoi24_remake\\blazor_server_app\\obj\\Debug\\net9.0\\compressed\\iamqutuv4c-sjnzgf7e1h.gz",
@@ -430,11 +451,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "0ycc9sa1i6",
-      "Integrity": "iEVo9ha9+K9x/XjtQc76pr3zGwLRw2bUbaMge1vz1j4=",
+      "Fingerprint": "g9gj2g4fvj",
+      "Integrity": "7KRXVUtazzzcWn6Xg9j7uN+qzDQyIgFL3DZPdOKL3AM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "D:\\Cybersoft.net\\Buoi24_remake\\blazor_server_app\\wwwroot\\css\\site.css.map",
+      "SourceId": "blazor_server_app",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Cybersoft.net\\Buoi24_remake\\blazor_server_app\\wwwroot\\",
+      "BasePath": "_content/blazor_server_app",
+      "RelativePath": "css/site.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "g6xnr5odz0",
+      "Integrity": "uPYfxChFl74rQ9AFI/laQ/PUO58okzPTuHWGyoQ/gEY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css.map"
     },
     {
       "Identity": "D:\\Cybersoft.net\\Buoi24_remake\\blazor_server_app\\wwwroot\\favicon.ico",
@@ -540,6 +582,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\steel-car.jpg"
+    },
+    {
+      "Identity": "D:\\Cybersoft.net\\Buoi24_remake\\blazor_server_app\\wwwroot\\Scss\\site.scss",
+      "SourceId": "blazor_server_app",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Cybersoft.net\\Buoi24_remake\\blazor_server_app\\wwwroot\\",
+      "BasePath": "_content/blazor_server_app",
+      "RelativePath": "Scss/site#[.{fingerprint}]?.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e1nitoaknw",
+      "Integrity": "3n0BLayqxym/3u/Ea45YH9/wQWD2ROHwKcnqTvcBd+Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Scss\\site.scss"
     }
   ],
   "Endpoints": [
@@ -2742,13 +2805,13 @@
       ]
     },
     {
-      "Route": "css/site.0ycc9sa1i6.css",
-      "AssetFile": "D:\\Cybersoft.net\\Buoi24_remake\\blazor_server_app\\obj\\Debug\\net9.0\\compressed\\2dbeoowi7f-0ycc9sa1i6.gz",
+      "Route": "css/site.css",
+      "AssetFile": "D:\\Cybersoft.net\\Buoi24_remake\\blazor_server_app\\obj\\Debug\\net9.0\\compressed\\2dbeoowi7f-g9gj2g4fvj.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.012987012987"
+          "Quality": "0.008474576271"
         }
       ],
       "ResponseHeaders": [
@@ -2758,19 +2821,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "76"
+          "Value": "117"
         },
         {
           "Name": "ETag",
-          "Value": "\"j69LrXZ6DVGfsIh49AJSLVcjtbongGto2jRg+b20xMQ=\""
+          "Value": "\"LTeJUlv2OtL7clJIZaMg7G9Y5813/dhWor6EQaoUiic=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 13:20:15 GMT"
+          "Value": "Sun, 04 May 2025 09:51:07 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -2786,26 +2849,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"iEVo9ha9+K9x/XjtQc76pr3zGwLRw2bUbaMge1vz1j4=\""
+          "Value": "W/\"7KRXVUtazzzcWn6Xg9j7uN+qzDQyIgFL3DZPdOKL3AM=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "0ycc9sa1i6"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-iEVo9ha9+K9x/XjtQc76pr3zGwLRw2bUbaMge1vz1j4="
+          "Value": "sha256-7KRXVUtazzzcWn6Xg9j7uN+qzDQyIgFL3DZPdOKL3AM="
         }
       ]
     },
     {
-      "Route": "css/site.0ycc9sa1i6.css",
+      "Route": "css/site.css",
       "AssetFile": "D:\\Cybersoft.net\\Buoi24_remake\\blazor_server_app\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2815,7 +2870,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "70"
+          "Value": "120"
         },
         {
           "Name": "Content-Type",
@@ -2823,11 +2878,111 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"iEVo9ha9+K9x/XjtQc76pr3zGwLRw2bUbaMge1vz1j4=\""
+          "Value": "\"7KRXVUtazzzcWn6Xg9j7uN+qzDQyIgFL3DZPdOKL3AM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 13:20:15 GMT"
+          "Value": "Sun, 04 May 2025 09:51:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7KRXVUtazzzcWn6Xg9j7uN+qzDQyIgFL3DZPdOKL3AM="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.g6xnr5odz0.map",
+      "AssetFile": "D:\\Cybersoft.net\\Buoi24_remake\\blazor_server_app\\obj\\Debug\\net9.0\\compressed\\ggzq3v2xk5-g6xnr5odz0.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.007194244604"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "138"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QylCfmNQ1ZPhXaxTyLjARAnkK+0aUPHYEt++Xig1YoM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 09:51:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"uPYfxChFl74rQ9AFI/laQ/PUO58okzPTuHWGyoQ/gEY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g6xnr5odz0"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uPYfxChFl74rQ9AFI/laQ/PUO58okzPTuHWGyoQ/gEY="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.g6xnr5odz0.map",
+      "AssetFile": "D:\\Cybersoft.net\\Buoi24_remake\\blazor_server_app\\wwwroot\\css\\site.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "141"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uPYfxChFl74rQ9AFI/laQ/PUO58okzPTuHWGyoQ/gEY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 09:51:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2837,21 +2992,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "0ycc9sa1i6"
+          "Value": "g6xnr5odz0"
         },
         {
           "Name": "label",
-          "Value": "css/site.css"
+          "Value": "css/site.css.map"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-iEVo9ha9+K9x/XjtQc76pr3zGwLRw2bUbaMge1vz1j4="
+          "Value": "sha256-uPYfxChFl74rQ9AFI/laQ/PUO58okzPTuHWGyoQ/gEY="
         }
       ]
     },
     {
-      "Route": "css/site.0ycc9sa1i6.css.gz",
-      "AssetFile": "D:\\Cybersoft.net\\Buoi24_remake\\blazor_server_app\\obj\\Debug\\net9.0\\compressed\\2dbeoowi7f-0ycc9sa1i6.gz",
+      "Route": "css/site.css.g6xnr5odz0.map.gz",
+      "AssetFile": "D:\\Cybersoft.net\\Buoi24_remake\\blazor_server_app\\obj\\Debug\\net9.0\\compressed\\ggzq3v2xk5-g6xnr5odz0.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2860,19 +3015,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "76"
+          "Value": "138"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/css"
+          "Value": "text/plain"
         },
         {
           "Name": "ETag",
-          "Value": "\"j69LrXZ6DVGfsIh49AJSLVcjtbongGto2jRg+b20xMQ=\""
+          "Value": "\"QylCfmNQ1ZPhXaxTyLjARAnkK+0aUPHYEt++Xig1YoM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 13:20:15 GMT"
+          "Value": "Sun, 04 May 2025 09:51:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2890,7 +3045,350 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "0ycc9sa1i6"
+          "Value": "g6xnr5odz0"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css.map.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QylCfmNQ1ZPhXaxTyLjARAnkK+0aUPHYEt++Xig1YoM="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "D:\\Cybersoft.net\\Buoi24_remake\\blazor_server_app\\obj\\Debug\\net9.0\\compressed\\2dbeoowi7f-g9gj2g4fvj.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "117"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LTeJUlv2OtL7clJIZaMg7G9Y5813/dhWor6EQaoUiic=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 09:51:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LTeJUlv2OtL7clJIZaMg7G9Y5813/dhWor6EQaoUiic="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.map",
+      "AssetFile": "D:\\Cybersoft.net\\Buoi24_remake\\blazor_server_app\\obj\\Debug\\net9.0\\compressed\\ggzq3v2xk5-g6xnr5odz0.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.007194244604"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "138"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QylCfmNQ1ZPhXaxTyLjARAnkK+0aUPHYEt++Xig1YoM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 09:51:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"uPYfxChFl74rQ9AFI/laQ/PUO58okzPTuHWGyoQ/gEY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uPYfxChFl74rQ9AFI/laQ/PUO58okzPTuHWGyoQ/gEY="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.map",
+      "AssetFile": "D:\\Cybersoft.net\\Buoi24_remake\\blazor_server_app\\wwwroot\\css\\site.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "141"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uPYfxChFl74rQ9AFI/laQ/PUO58okzPTuHWGyoQ/gEY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 09:51:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uPYfxChFl74rQ9AFI/laQ/PUO58okzPTuHWGyoQ/gEY="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.map.gz",
+      "AssetFile": "D:\\Cybersoft.net\\Buoi24_remake\\blazor_server_app\\obj\\Debug\\net9.0\\compressed\\ggzq3v2xk5-g6xnr5odz0.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "138"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QylCfmNQ1ZPhXaxTyLjARAnkK+0aUPHYEt++Xig1YoM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 09:51:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QylCfmNQ1ZPhXaxTyLjARAnkK+0aUPHYEt++Xig1YoM="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.g9gj2g4fvj.css",
+      "AssetFile": "D:\\Cybersoft.net\\Buoi24_remake\\blazor_server_app\\obj\\Debug\\net9.0\\compressed\\2dbeoowi7f-g9gj2g4fvj.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.008474576271"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "117"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LTeJUlv2OtL7clJIZaMg7G9Y5813/dhWor6EQaoUiic=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 09:51:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"7KRXVUtazzzcWn6Xg9j7uN+qzDQyIgFL3DZPdOKL3AM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g9gj2g4fvj"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7KRXVUtazzzcWn6Xg9j7uN+qzDQyIgFL3DZPdOKL3AM="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.g9gj2g4fvj.css",
+      "AssetFile": "D:\\Cybersoft.net\\Buoi24_remake\\blazor_server_app\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "120"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7KRXVUtazzzcWn6Xg9j7uN+qzDQyIgFL3DZPdOKL3AM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 09:51:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g9gj2g4fvj"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7KRXVUtazzzcWn6Xg9j7uN+qzDQyIgFL3DZPdOKL3AM="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.g9gj2g4fvj.css.gz",
+      "AssetFile": "D:\\Cybersoft.net\\Buoi24_remake\\blazor_server_app\\obj\\Debug\\net9.0\\compressed\\2dbeoowi7f-g9gj2g4fvj.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "117"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LTeJUlv2OtL7clJIZaMg7G9Y5813/dhWor6EQaoUiic=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 09:51:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g9gj2g4fvj"
         },
         {
           "Name": "label",
@@ -2898,144 +3396,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-j69LrXZ6DVGfsIh49AJSLVcjtbongGto2jRg+b20xMQ="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "D:\\Cybersoft.net\\Buoi24_remake\\blazor_server_app\\obj\\Debug\\net9.0\\compressed\\2dbeoowi7f-0ycc9sa1i6.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.012987012987"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "76"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"j69LrXZ6DVGfsIh49AJSLVcjtbongGto2jRg+b20xMQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 13:20:15 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"iEVo9ha9+K9x/XjtQc76pr3zGwLRw2bUbaMge1vz1j4=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-iEVo9ha9+K9x/XjtQc76pr3zGwLRw2bUbaMge1vz1j4="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "D:\\Cybersoft.net\\Buoi24_remake\\blazor_server_app\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "70"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"iEVo9ha9+K9x/XjtQc76pr3zGwLRw2bUbaMge1vz1j4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 13:20:15 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-iEVo9ha9+K9x/XjtQc76pr3zGwLRw2bUbaMge1vz1j4="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css.gz",
-      "AssetFile": "D:\\Cybersoft.net\\Buoi24_remake\\blazor_server_app\\obj\\Debug\\net9.0\\compressed\\2dbeoowi7f-0ycc9sa1i6.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "76"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"j69LrXZ6DVGfsIh49AJSLVcjtbongGto2jRg+b20xMQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 13:20:15 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-j69LrXZ6DVGfsIh49AJSLVcjtbongGto2jRg+b20xMQ="
+          "Value": "sha256-LTeJUlv2OtL7clJIZaMg7G9Y5813/dhWor6EQaoUiic="
         }
       ]
     },
@@ -3662,6 +4023,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-TPhsJNT1RJInw4r7TMGifkcvgX5cHgIE6twfhlz34CI="
+        }
+      ]
+    },
+    {
+      "Route": "Scss/site.e1nitoaknw.scss",
+      "AssetFile": "D:\\Cybersoft.net\\Buoi24_remake\\blazor_server_app\\wwwroot\\Scss\\site.scss",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "129"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3n0BLayqxym/3u/Ea45YH9/wQWD2ROHwKcnqTvcBd+Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 09:51:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e1nitoaknw"
+        },
+        {
+          "Name": "label",
+          "Value": "Scss/site.scss"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3n0BLayqxym/3u/Ea45YH9/wQWD2ROHwKcnqTvcBd+Q="
+        }
+      ]
+    },
+    {
+      "Route": "Scss/site.scss",
+      "AssetFile": "D:\\Cybersoft.net\\Buoi24_remake\\blazor_server_app\\wwwroot\\Scss\\site.scss",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "129"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3n0BLayqxym/3u/Ea45YH9/wQWD2ROHwKcnqTvcBd+Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 09:51:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3n0BLayqxym/3u/Ea45YH9/wQWD2ROHwKcnqTvcBd+Q="
         }
       ]
     }

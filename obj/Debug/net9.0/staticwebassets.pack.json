@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "D:\\Cybersoft.net\\Buoi24_remake\\blazor_server_app\\wwwroot\\Scss\\site.scss",
+      "PackagePath": "staticwebassets\\Scss\\site.scss"
+    },
+    {
       "Id": "D:\\Cybersoft.net\\Buoi24_remake\\blazor_server_app\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
@@ -47,6 +51,10 @@
     {
       "Id": "D:\\Cybersoft.net\\Buoi24_remake\\blazor_server_app\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Cybersoft.net\\Buoi24_remake\\blazor_server_app\\wwwroot\\css\\site.css.map",
+      "PackagePath": "staticwebassets\\css\\site.css.map"
     },
     {
       "Id": "D:\\Cybersoft.net\\Buoi24_remake\\blazor_server_app\\wwwroot\\favicon.ico",

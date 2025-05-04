@@ -1,0 +1,26 @@
+{
+  "name": "blazor_server_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+       "watch-sass": "sass --watch wwwroot/scss:wwwroot/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sugarstar0710/Blazor_server_app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Sugarstar0710/Blazor_server_app/issues"
+  },
+  "homepage": "https://github.com/Sugarstar0710/Blazor_server_app#readme"
+
+  
+
+  
+}
+
