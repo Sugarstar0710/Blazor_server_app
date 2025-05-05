@@ -80,6 +80,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[d:/Cybersoft.net/Buoi24_remake/blazor_server_app/Pages/JSRazor/JSRazor.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSlNSYXpvclxKU1Jhem9yLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [d:/Cybersoft.net/Buoi24_remake/blazor_server_app/Pages/LifeCycle/Dispose/DisponseDemo.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlmZUN5Y2xlXERpc3Bvc2VcRGlzcG9uc2VEZW1vLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 

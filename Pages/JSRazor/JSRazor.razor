@@ -1,0 +1,19 @@
+@page "/jsrazor"
+@inject IJSRuntime js;
+<div class="container">
+    <h3>js Razor</h3>
+    <button class="btn btn-success" @onclick="HandleClick">SayHello</button>
+</div>
+ <script>
+    function sayHello()
+    {
+        console.log("Hello Cybersoft");
+        localStorage.setItem("data","data razor")
+    }
+</script> 
+@code{
+    async Task HandleClick()
+    {
+        await js.InvokeVoidAsync("sayHello");
+    }
+}
